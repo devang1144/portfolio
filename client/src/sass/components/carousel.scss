@@ -1,0 +1,33 @@
+._carousel_content {
+    display: block;
+}
+
+.read_more {
+    text-align: right;
+    color: white;
+    margin-right: 1rem;
+    font-family: $font-1;
+    transition: all 0.3s;
+    .anim {
+        animation: anim 0.3s;
+        position: absolute;
+        color: #53B049;
+        transition: all 0.3s;
+        opacity: 0;
+        pointer-events: none;
+    }
+    .orig {
+        transition: all 0.2s;
+    }
+    &:hover {
+        .orig {
+            transform: translateY(-35px);
+            opacity: 0;
+        }
+        .anim {
+            transform: translateY(-19px);
+            opacity: 1;
+        }
+    }
+}
+

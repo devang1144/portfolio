@@ -1,0 +1,50 @@
+.search_box {
+    position: relative;
+}
+.search_blogs {
+    input {
+        display: block;
+        width: 100%;
+        padding: 1.5rem;
+        background-color: black;
+        border: none;
+        color: white;
+        font-family: $font-1;
+        font-size: 25px;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+.search_results {
+    box-shadow: rgb(255, 255, 255, 20%) 0px 0px 15px, rgb(255, 255, 255, 15%) 0px 0px 3px 1px;
+    position: absolute;
+    width: 100%;
+    background-color: #000000;
+    padding: 0.4rem;
+    border-radius: 0.5rem;
+    color: white;
+
+    .found_result {
+        padding: 0.7rem;
+        font-family: $font-1;
+        &:hover {
+            cursor: default;
+            border-radius: 0.5rem;
+            background-color: #161616;
+        }
+        h3 {
+            font-size: 22px;
+        }
+        .search_res_image {
+            width: 100%;
+
+        }
+        a { 
+            color: white; 
+            text-decoration: none; 
+            cursor: default;
+        }
+    }
+}

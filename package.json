@@ -1,0 +1,49 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devang1144/portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devang1144/portfolio/issues"
+  },
+  "homepage": "https://github.com/devang1144/portfolio#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "boxen": "^6.2.1",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "externalip": "^1.0.2",
+    "googleapis": "^92.0.0",
+    "js2xmlparser": "^4.0.2",
+    "mongo-sanitize": "^1.1.0",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.4",
+    "nocache": "^3.0.1",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-oauth2-refresh": "^2.1.0",
+    "session-file-store": "^1.5.0",
+    "slugify": "^1.6.4",
+    "uuid": "^8.3.2",
+    "xss-clean": "^0.1.1"
+  },
+  "type": "module"
+}

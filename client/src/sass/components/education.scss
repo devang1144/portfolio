@@ -1,0 +1,35 @@
+._education {
+    background-color: black;
+    min-height: 100vh;
+    .rs-timeline-item-tail {
+        background-color: #f49831;
+    }
+    .rs-timeline-item-content {
+        display: inline-block;
+        color: white;
+    }
+    .rs-timeline-item-dot {
+        &::before {
+            background-color: #f49831;
+        }
+    }
+    .timeline-container {
+        width: 53%;
+        margin: 0 auto;
+    }
+    .timeline-heading {
+        color: #f49831;
+    }
+}
+
+@media (max-width: 575px) {
+    ._education {
+        .timeline-container { width: 86%; }
+    }
+}
+
+@media (max-width: 320px) {
+    ._education {
+        .timeline-container { width: 90%; }
+    }
+}

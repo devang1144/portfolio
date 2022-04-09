@@ -1,0 +1,116 @@
+.blog_container_main_wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    z-index: 1001;
+}
+.blog_card_wrapper {
+    a {
+        text-decoration: none;
+    }
+}
+.blog_card {
+    background-color: #1C1C1C;
+    font-family: $font-1;
+    border-radius: 1.5rem;
+    margin-top: 1.7rem;
+    .image {
+        display: flex;
+        padding: 1.1rem;
+        justify-content: center;
+        border-radius: 1.5rem;
+        width: 100%;
+        .blog_image {
+            border-radius: 1rem;
+            width: 100%;
+            min-width: 290px;
+            max-height: 220px;
+            overflow: hidden;
+            object-fit: cover;
+        }
+    }
+    .name {
+        font-weight: 700;
+        font-size: 23px;
+        color: white;
+        padding-left: 2rem;
+    }
+    .burger_icon {
+        width: 20px;
+        margin-right: 0.4rem;
+    }
+    .content {
+        font-size: 16px;
+        width: 80%;
+        color: white;
+        padding-left: 2rem;
+    }
+    .author {
+        color: white;
+        padding-left: 2rem;
+        span{ border-bottom: 1px solid white; }
+        padding-bottom: 1.6rem;
+    }
+}
+
+@media (max-width: 1300px) {
+    .blog_container_main_wrapper {
+        width: 64%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 1100px) {
+    .blog_container_main_wrapper {
+        width: 72%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 900px) {
+    .blog_container_main_wrapper {
+        width: 85%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 650px) {
+    .blog_container_main_wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 320px) {
+    .blog_container_main_wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .blog_card {
+        border-radius: 1.2rem;
+        .image {
+            padding: 1.1rem;
+            border-radius: 1.5rem;
+            width: 100%;
+            .blog_image {
+                border-radius: 0.7rem;
+                width: 100%;
+                max-height: 220px;
+                overflow: hidden;
+                object-fit: cover;
+            }
+        }
+        .name {
+            font-weight: 700;
+            font-size: 18px;
+            padding-left: 2rem;
+        }
+        .content {
+            font-size: 14px;
+            width: 87%;
+            padding-left: 2rem;
+        }
+        .author {
+            font-size: 14px;
+            padding-left: 2rem;
+            span{ border-bottom: 1px solid white; }
+            padding-bottom: 1.6rem;
+        }
+    }
+}

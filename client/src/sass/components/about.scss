@@ -1,0 +1,42 @@
+.about_me_wrapper {
+    min-height: 100vh;
+    background-color: black;
+    .about_me {
+        text-align: justify;
+        padding-top: 2.5rem;
+        margin: 0 auto;
+        max-width: 60%;
+        color:white;
+
+        a {
+            color: #8993ff;
+            text-decoration: none;
+        }
+
+        .socials {
+            color: white;
+        }
+
+        .me {
+            border: 3px solid #8993ff;
+            border-radius: 50%;
+            width: 30%;
+            margin-bottom: 1.5rem;
+        }
+
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .about_me_wrapper {
+        .about_me {
+            max-width: 85%;
+            width: 85%;
+            .me {
+                border-radius: 50%;
+                width: 80%;
+            }
+        }
+    }
+}
